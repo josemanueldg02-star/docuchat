@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/docuchat
     username: docuchat
-    password: docuchatWanderlusT12!
+    password: ${POSTGRES_PASSWORD}
   ai:
     google:
       genai:
