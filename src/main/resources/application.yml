@@ -2,8 +2,8 @@ spring:
   application:
     name: docuchat
   datasource:
-    url: jdbc:postgresql://localhost:5433/docuchat
-    username: docuchat
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5433/docuchat}
+    username: ${SPRING_DATASOURCE_USERNAME:docuchat}
     password: ${POSTGRES_PASSWORD}
   ai:
     google:

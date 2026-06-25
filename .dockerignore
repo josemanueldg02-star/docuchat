@@ -1,0 +1,6 @@
+frontend/
+target/
+.git/
+.env
+*.md
+.DS_Store
