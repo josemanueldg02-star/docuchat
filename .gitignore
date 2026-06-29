@@ -34,5 +34,6 @@ build/
 
 ### keys ###
 .env
-
+*.env
+application-local.properties
 .DS_Store
